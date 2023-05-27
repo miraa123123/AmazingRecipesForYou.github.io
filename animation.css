@@ -1,0 +1,27 @@
+.Container {
+
+    animation: transin 0.66s;
+
+
+}
+
+
+@keyframes transin{
+
+    from {
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+
+    }
+
+    to {
+
+        
+        opacity: 1;
+        transform: rotateX(0);
+
+
+    }
+
+}
